@@ -22,4 +22,3 @@ for _ in 0..<times {
     
     print(sums[end] - sums[start-1])
 }
-aa
