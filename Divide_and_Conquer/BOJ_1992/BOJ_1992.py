@@ -1,6 +1,3 @@
-import sys
-
-
 def f(x, y, n):
     global ans
     quad = []
@@ -28,8 +25,8 @@ def f(x, y, n):
         ans.append(check)
 
 
-N = int(sys.stdin.readline())
-li = [list(sys.stdin.readline().strip()) for x in range(N)]
+N = int(input())
+li = [list(input().strip()) for x in range(N)]
 
 ans = []
 f(0, 0, N)
