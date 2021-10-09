@@ -11,11 +11,8 @@ int main() {
 
 	int N;	cin >> N;
 
-	//arr[0] = arr[1] = 1;
-
 	for (int i = 2; i <= sqrt(N); i++) {
-		for (int j = i *
-			i; j <= N; j += i) {
+		for (int j = i * i; j <= N; j += i) {
 			if (arr[j] == 0) {
 				arr[j] = 1;
 			}
@@ -28,9 +25,7 @@ int main() {
 	}
 
 	eratos.push_back(0);
-
-	//vector<int>::iterator start = eratos.begin();
-	//vector<int>::iterator end = eratos.begin();
+	
 	int sum = 0;
 	int count = 0;
 	int start = 0, end = 0;
