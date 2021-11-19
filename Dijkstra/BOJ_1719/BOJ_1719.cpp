@@ -61,14 +61,7 @@ void dijkstra(int start) {
 
 	print_next_node(start, trace);
 }
-void print(vector<vector<int>> arr) {
-	for (int i = 0; i < arr.size(); ++i) {
-		for (int j = 0; j < arr[i].size(); ++j) {
-			cout << arr[i][j] << ' ';
-		}
-		cout << '\n';
-	}
-}
+
 int main(void)
 {
 	ios_base::sync_with_stdio(false);
@@ -83,7 +76,6 @@ int main(void)
 		cin >> start >> end >> cost;
 		vec[start - 1].push_back({ end - 1, cost });
 		vec[end - 1].push_back({ start - 1, cost });
-
 	}
 	   
 	for (int i = 0; i < n; ++i) {
