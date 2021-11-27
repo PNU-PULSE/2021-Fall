@@ -1,9 +1,9 @@
-//개똥벌레
+// // 개똥벌레
 // #include<iostream>
 // #include<vector>
 // #include<algorithm>
 // using namespace std;
-// 정렬, 누적합, 이진탐색
+// // 정렬, 누적합, 이진탐색
 // int N, H, temp;
 
 // int main(){
